@@ -19,7 +19,7 @@ A web application enabling users to search in scientific articles from a list of
 - Google Authentication (Optional)
 
 ## User Functionalities
-- Search by [title, keywords, authors, content]
+- Search by [title, keywords, authors, content] (One Query / Advanced search)
 - Display search results sorted by publication date (recent first)
     - Filter search results by [keywords, authors, institutions, publication dates interval]
     - Display article details [text format, PDF]
@@ -28,11 +28,12 @@ A web application enabling users to search in scientific articles from a list of
 
 ## Admin Functionalities
 - CRUD on moderators by Email/Username (First Name, Last Name)
-- Upload scientific articles through URL (Drive Directory) (containing PDF articles)
+- Upload scientific articles through Local files
+- Upload scientific articles through URL (Single / Drive Directory)
 
 ## PDF Extractor
 - Handle [1 column, 2 columns] PDF articles
-- Extract scientific articles characteristics from PDF text
+- Extract scientific articles characteristics from PDF text (Hard code / Regex / AI)
 - Extracted article sent in a search index to ElasticSearch
 
 ## Moderator Functionalities
