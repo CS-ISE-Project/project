@@ -30,6 +30,7 @@ A web application enabling users to search in scientific articles from a list of
 - CRUD on moderators by Email/Username (First Name, Last Name)
 - Upload scientific articles through Local files
 - Upload scientific articles through URL (Single / Drive Directory)
+- Handle file duplicates
 
 ## PDF Extractor
 - Handle [1 column, 2 columns] PDF articles
