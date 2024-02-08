@@ -1,0 +1,11 @@
+{
+    "url": {"type": "text"},
+    "publication_date": {"type": "date"},
+    "title": {"type": "text"},
+    "authors": {"type": "text"},
+    "institutes": {"type": "text"},
+    "keywords": {"type": "text"},
+    "abstract": {"type": "text"},
+    "content": {"type": "text"},
+    "references": {"type": "text"}
+}
